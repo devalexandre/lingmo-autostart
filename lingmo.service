@@ -1,8 +1,8 @@
 [Unit]
-Description=Lingmo Service
+Description=Lingmo Service 3
 
 [Service]
-ExecStart=/usr/local/bin/lingmoos
+ExecStart=%h/.config/lingmoos/lingmoos
 Restart=always
 User=%i
 
